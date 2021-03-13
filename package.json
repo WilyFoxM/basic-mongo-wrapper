@@ -1,0 +1,14 @@
+{
+  "name": "basic-mongo",
+  "version": "1.0.0",
+  "description": "Simple mongodb interface to speed up communication with db",
+  "main": "interface.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "WilyFoxM",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.3"
+  }
+}
