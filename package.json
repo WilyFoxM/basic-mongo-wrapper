@@ -1,5 +1,5 @@
 {
-  "name": "basic-mongo",
+  "name": "basic-mongo-wrapper",
   "version": "1.0.0",
   "description": "Simple mongodb interface to speed up communication with db",
   "main": "interface.js",
