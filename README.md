@@ -60,8 +60,50 @@ database.findOne(collectionname, params);
 database.findOneAndUpdate(collectionname, paramsfind, paramsupdate);
 ```
 
-##### updateOne - return promise with array of all results
+##### updateOne - return promise with updated object
 
 ```JS
 database.updateOne(collectionname, paramsfind, paramsupdate);
+```
+
+##### updateMany - return promise with all updated objects
+
+```JS
+database.updateMany(collectionname, paramsfind, paramsupdate);
+```
+
+##### insertOne - return promise with inserted object
+
+```JS
+database.insertOne(collectionname, data);
+```
+
+##### insertMany - return promise with all inserted objects
+
+```JS
+database.insertMany(collectionname, dataArray);
+```
+
+##### deleteOne - return promise with deleted object
+
+```JS
+database.deleteOne(collectionname, paramsfind);
+```
+
+##### deleteMany - return promise with all deleted objects
+
+```JS
+database.deleteMany(collectionname, paramsfind);
+```
+
+##### drop - delete all data in collection
+
+```JS
+database.drop(collectionname);
+```
+
+##### createCollection - create collection in database
+
+```JS
+database.createCollection(collectionname, data);
 ```
