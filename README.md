@@ -6,7 +6,7 @@
 
 ### Then install wrapper:
 
-`npm i basic-mongo`
+`npm i basic-mongo-wrapper`
 
 # Using
 
@@ -17,7 +17,7 @@
 #### Declare package
 
 ```JS
-const Interface = require("basic-mongo");
+const Interface = require("basic-mongo-wrapper");
 ```
 
 #### Creating instance of
@@ -31,7 +31,7 @@ let database = new Interface(url, dbname);
 #### Getting information from database
 
 ```JS
-const Interface = require("basic-mongo");
+const Interface = require("basic-mongo-wrapper");
 let database = new Interface(url, dbname);
 
 await database.findOne("users", { name: 'Fox', status: 'Premium' }).then((data) => {
