@@ -6,8 +6,16 @@
   "scripts": {
     "start": "node ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilyFoxM/basic-mongo.git"
+  },
   "author": "WilyFoxM",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilyFoxM/basic-mongo/issues"
+  },
+  "homepage": "https://github.com/WilyFoxM/basic-mongo#readme",
   "dependencies": {
     "mongodb": "^3.6.3"
   }
