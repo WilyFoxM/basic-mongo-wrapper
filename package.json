@@ -13,14 +13,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WilyFoxM/basic-mongo.git"
+    "url": "git+github.com/WilyFoxM/basic-mongo-wrapper.git"
   },
   "author": "WilyFoxM",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WilyFoxM/basic-mongo/issues"
+    "url": "https://github.com/WilyFoxM/basic-mongo-wrapper/issues"
   },
-  "homepage": "https://github.com/WilyFoxM/basic-mongo#readme",
+  "homepage": "https://github.com/WilyFoxM/basic-mongo-wrapper#readme",
   "dependencies": {
     "mongodb": "^3.6.3"
   }
